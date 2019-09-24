@@ -28,7 +28,7 @@ public class Register extends AppCompatActivity {
     EditText username, password;
     Button registerButton;
     String user, pass;
-    TextView login;
+    TextView login, nullScenarios;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +40,7 @@ public class Register extends AppCompatActivity {
         password = (EditText)findViewById(R.id.password);
         registerButton = (Button)findViewById(R.id.registerButton);
         login = (TextView)findViewById(R.id.login);
+        nullScenarios = findViewById(R.id.null_scenarios);
 
         Firebase.setAndroidContext(this);
 
@@ -49,6 +50,15 @@ public class Register extends AppCompatActivity {
                 startActivity(new Intent(Register.this, Login.class));
             }
         });
+
+        nullScenarios.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Register.this, NullScenario.class));
+            }
+        });
+
+
 
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override

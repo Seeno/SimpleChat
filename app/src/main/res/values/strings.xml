@@ -5,7 +5,11 @@
     <string name="enter_username">Enter Username</string>
     <string name="click_here_to_register">Click here to register</string>
     <string name="write_a_message">Type a message</string>
-    <string name="click_here_to_login">Click here to login</string>
     <string name="enter_password">Enter Password</string>
     <string name="register">Register</string>
+    <string name="please_enter_a_username">Please enter a username</string>
+    <string name="merebcguide">MyRBCGuide</string>
+    <string name="my_rbc_guide">My RBC Guide</string>
+    <string name="click_here_to_login">Click here to login</string>
+    <string name="click_here_to_go_to_crash_scenarios">Click here to go to crash scenarios</string>
 </resources>

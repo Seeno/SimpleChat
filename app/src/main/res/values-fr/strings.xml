@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Parlons</string>
+    <string name="no_users_found">Aucun utilisateur trouvé!</string>
+    <string name="login">S\'identifier</string>
+    <string name="enter_username">Saisissez votre nom d\'utilisateur</string>
+    <string name="click_here_to_register">Cliquez ici pour vous inscrire</string>
+    <string name="write_a_message">Tapez un message</string>
+    <string name="enter_password">Entrer le mot de passe</string>
+    <string name="register">S\'inscrire</string>
+    <string name="please_enter_a_username">Merci d\'entrer un nom d\'utilisateur</string>
+    <string name="merebcguide">MonRBCGuider</string>
+    <string name="my_rbc_guide">>Mon RBC Guider</string>
+</resources>
